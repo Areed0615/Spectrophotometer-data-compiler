@@ -30,7 +30,7 @@ A series of spreadsheets are generated based on the number of measurements that 
 
 6. Once all of that is done hit "See Data" and you will be shown a graph made from your data, and your spreadsheets will be in the same folder your .opj file was in.
 
-#Known issues
+# Known issues
 The current version of this program does not work with multiple .opj files at the same time
 
 Not selecting a working directory will crash the program
