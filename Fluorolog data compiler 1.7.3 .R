@@ -30,7 +30,7 @@ server<-function(input, output){
   
   # brings in the path and name of the opj file we want to open
   opjfiles<-list.files(path=getwd(),pattern="*.OPJ",full.names=F,recursive=F)
-  if (length(opjfiles)==0){
+  if (is.na(opjfiles)){
     opjfiles<-list.files(path=getwd(),pattern="*.opj",full.names=F,recursive=F)
   }
 
@@ -50,7 +50,7 @@ server<-function(input, output){
     plantlist<-plantlist[[1]]
     
     if(sample_no*length(plantlist)>length(expopj)){
-      while (length(expopj)%%sample_no!=0){
+      while (sample_no*length(plantlist)>length(expopj)){
         sample_no <- sample_no-1
       }
     }
