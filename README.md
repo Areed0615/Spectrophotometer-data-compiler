@@ -39,5 +39,5 @@ Putting the wrong number of samples or the wrong number of measurements will sim
 
 I am still fairly new to R and I am only developing this program in my free time, so while I intend to fix these issues they either lie outside of my ability or I simply have not had the time to fix them properly.
 
-#Notes
+# Notes
 The code is a bit of a mess since I made it rather hastily to compile my own data; I am happy to accept any contributions that clean up or enhance my code in any way.
